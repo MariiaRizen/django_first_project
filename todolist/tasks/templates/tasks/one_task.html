@@ -1,0 +1,24 @@
+{% extends 'tasks/base.html'%}
+{% block title %} My one task {% endblock %}
+
+{% block content %}
+    <table>
+
+        <tr>
+            <th>title</th>
+            <th>description</th>
+            <th>done</th>
+            <th>due_date</th>
+            <th>priority</th>
+        </tr>
+
+            <tr>
+            <td><a href="/tasks/{{ task.id }}"> {{task.title}}</a></td>
+            <td>{{task.description}}</td>
+            <td>{{task.done}}</td>
+            <td>{{task.due_date}}</td>
+            <td>{{task.priority}}</td>
+            </tr>
+
+    </table>
+{% endblock %}

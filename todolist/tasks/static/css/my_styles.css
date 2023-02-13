@@ -1,0 +1,45 @@
+td {
+    background-color: green;
+    color: white;
+}
+th {background-color: green:
+    color: white;
+}
+div#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    position: static;
+
+}
+div#footer {
+  background-color: #99ffcc;
+  text-align: center;
+  padding: 10px;
+  position: static:
+  top: 100%;
+  bottom: 15px; /* Положение от нижнего края */
+  right: 15px;
+}
+img#logo{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+}
+span{
+  color: #00331a;
+  text-align: left;
+  top: 100%;
+  bottom: 15px; /* Положение от нижнего края */
+  right: 15px;
+
+
+}
+div#content{
+    background-color: grey;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %} | ToDoList</title>
+</head>
+<body>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/my_styles.css' %}">
+    <div id="navbar">
+      <img id="logo" src="{% static 'images/SarangkotSunriseView.jpg' %}">
+        <span>ToDo List</span>
+        {% block menu %} {% endblock %}
+    </div>
+    <div id="content">
+        {% block content %} {% endblock %}
+    </div>
+    <div id="footer">
+      <div>Contact us on mymail@gmail.com</div>
+      <div>All rights reserved 2023</div>
+    </div>
+</body>
+</html>
